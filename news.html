@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>News</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="http://netdna.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" rel="stylesheet">
+    <style type="text/css">
+    	body{margin-top:20px;
+background:#f5f5f5;
+}
+.blog-post {
+  -webkit-transition: all 0.5s cubic-bezier(0.68, -0.55, 0.27, 1.55) 0s;
+  transition: all 0.5s cubic-bezier(0.68, -0.55, 0.27, 1.55) 0s;
+}
+
+.blog-post .blog-img .overlay,
+.blog-post .blog-img .post-meta {
+  position: absolute;
+  opacity: 0;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+.blog-post .blog-img .overlay {
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+.blog-post .blog-img .post-meta {
+  bottom: 5%;
+  right: 5%;
+  z-index: 1;
+}
+
+.blog-post .blog-img .post-meta .read-more:hover {
+  color: #6dc77a !important;
+}
+
+.blog-post .content h1, .blog-post .content h2, .blog-post .content h3, .blog-post .content h4, .blog-post .content h5, .blog-post .content h6 {
+  line-height: 1.2;
+}
+
+.blog-post .content .title {
+  font-size: 18px;
+}
+
+.blog-post .content .title:hover {
+  color: #6dc77a !important;
+}
+
+.blog-post .content .author .name:hover {
+  color: #6dc77a !important;
+}
+
+.blog-post:hover {
+  -webkit-transform: translateY(-7px);
+          transform: translateY(-7px);
+  -webkit-box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
+          box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
+}
+
+.blog-post:hover .blog-img .overlay {
+  opacity: 0.65;
+}
+
+.blog-post:hover .blog-img .post-meta {
+  opacity: 1;
+}
+
+.blog-post .post-meta .like i,
+.profile-post .like i {
+  -webkit-text-stroke: 2px #dd2427;
+  -webkit-text-fill-color: transparent;
+}
+
+.blog-post .post-meta .like:active i, .blog-post .post-meta .like:focus i,
+.profile-post .like:active i,
+.profile-post .like:focus i {
+  -webkit-text-stroke: 0px #dd2427;
+  -webkit-text-fill-color: #dd2427;
+}
+
+.avatar.avatar-ex-sm {
+    height: 36px;
+}
+.shadow {
+    -webkit-box-shadow: 0 0 5px rgba(0, 0, 0, 0.15) !important;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.15) !important;
+}
+
+.text-muted {
+    color: #8492a6 !important;
+}
+
+
+.para-desc {
+    max-width: 600px;
+}
+.text-muted {
+    color: #8492a6 !important;
+}
+
+.section-title .title {
+    letter-spacing: 0.5px;
+    font-size: 30px;
+}
+
+    </style>
+</head>
+<body>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/MaterialDesign-Webfont/5.3.45/css/materialdesignicons.css" integrity="sha256-NAxhqDvtY0l4xn+YVa6WjAcmd94NNfttjNsDmNatFVc=" crossorigin="anonymous" />
+
+          <div class="container flex-grow-1 container-p-y">
+                          <div>
+                <a href="main.html" class="footer-link pt-3">Main</a>
+                <a href="news.html" class="footer-link pt-3 ml-4">News</a>
+                <a href="mycity.html" class="footer-link pt-3 ml-4">My City</a>
+                <a href="asks.html" class="footer-link pt-3 ml-4">Frequently Asks Questions</a>
+              </div>
+<div class="container mt-100 mt-60">
+    <div class="row">
+        <div class="col-12 text-center">
+            <div class="section-title mb-4 pb-2">
+                <h4 class="title mb-4">News</h4>
+                <p class="text-muted para-desc mx-auto mb-0">Find out new IT news and much more</p>
+            </div>
+        </div><!--end col-->
+    </div><!--end row-->
+
+    <div class="row">
+        <div class="col-lg-4 col-md-6 mt-4 pt-2">
+            <div class="blog-post rounded border">
+                <div class="blog-img d-block overflow-hidden position-relative">
+                    <img src="https://club.dns-shop.ru/api/v1/image/getOriginal/q93_1b4d54c9a4bb91e885cbc6464030662d94f01188609d1e047d66f4daf53aa640.jpg" class="img-fluid rounded-top" alt="">
+                    <div class="overlay rounded-top bg-dark"></div>
+                    <div class="post-meta">
+                        <a href="javascript:void(0)" class="text-light d-block text-right like"><i class="mdi mdi-heart"></i> 33</a>
+                        <a href="javascript:void(0)" class="text-light read-more">Read More <i class="mdi mdi-chevron-right"></i></a>
+                    </div>
+                </div>
+                <div class="content p-3">
+                    <small class="text-muted p float-right">21th April, 2021</small>
+                    <small><a href="javascript:void(0)" class="text-primary">Crypto</a></small>
+                    <h4 class="mt-2"><a href="javascript:void(0)" class="text-dark title">Mining of a new cryptocurrency is gaining momentum</a></h4>
+                    <p class="text-muted mt-2">Why Chia is considered a promising project, what is useful in it, what does deflation and investors have to do with it, what difficulties it faces today and what to expect in the future, as well as how to mine Chia (step by step) and when Chia Coin mining opens — read the material about the most important thing.</p>
+                    <div class="pt-3 mt-3 border-top d-flex">
+                        <img src="https://sun9-26.userapi.com/impg/xpNeIlWDUjqr-ehXeHxsZeyXytSOzOezaDX6YA/f3X-BMblIaU.jpg?size=1920x1920&quality=96&sign=83de721f6628734da8f9a258f0916783&type=album" class="img-fluid avatar avatar-ex-sm rounded-pill mr-3 shadow" alt="">
+                        <div class="author mt-2">
+                            <h6 class="mb-0"><a href="main.html" class="text-dark name">Aleksey Konig</a></h6>
+                        </div>
+                    </div>
+                </div>
+            </div><!--end blog post-->
+        </div><!--end col-->
+        
+        <div class="col-lg-4 col-md-6 mt-4 pt-2">
+            <div class="blog-post rounded border">
+                <div class="blog-img d-block overflow-hidden position-relative">
+                    <img src="https://www.tadviser.ru/images/5/56/Screавпвіаenshot_21.png" class="img-fluid rounded-top" alt="">
+                    <div class="overlay rounded-top bg-dark"></div>
+                    <div class="post-meta">
+                        <a href="javascript:void(0)" class="text-light d-block text-right like"><i class="mdi mdi-heart"></i> 33</a>
+                        <a href="javascript:void(0)" class="text-light read-more">Read More <i class="mdi mdi-chevron-right"></i></a>
+                    </div>
+                </div>
+                <div class="content p-3">
+                    <small class="text-muted p float-right">18th May, 2021</small>
+                    <small><a href="javascript:void(0)" class="text-primary">IT</a></small>
+                    <h4 class="mt-2"><a href="javascript:void(0)" class="text-dark title">Once a supercomputer, now a processor. Google unveils new chip</a></h4>
+                    <p class="text-muted mt-2">On May 18, 2021, Google announced the fourth-generation Tensor Processing Unit (TPU). The new solutions, according to the developers, are twice as fast as the previous model.
+
+Introducing the new Tensor Processing Unit, Google CEO Sundar Pichai noted that these chips can be combined into blocks consisting of 4096 TPUs. The performance of one such unit can exceed 1 exaflops and correspond to the capacity of 10 million laptops with the most advanced technical characteristics.</p>
+                    <div class="pt-3 mt-3 border-top d-flex">
+                        <img src="https://sun9-26.userapi.com/impg/xpNeIlWDUjqr-ehXeHxsZeyXytSOzOezaDX6YA/f3X-BMblIaU.jpg?size=1920x1920&quality=96&sign=83de721f6628734da8f9a258f0916783&type=album" class="img-fluid avatar avatar-ex-sm rounded-pill mr-3 shadow" alt="">
+                        <div class="author mt-2">
+                            <h6 class="mb-0"><a href="main.html" class="text-dark name">Aleksey Konig</a></h6>
+                        </div>
+                    </div>
+                </div>
+            </div><!--end blog post-->
+        </div><!--end col-->
+        
+        <div class="col-lg-4 col-md-6 mt-4 pt-2">
+            <div class="blog-post rounded border">
+                <div class="blog-img d-block overflow-hidden position-relative">
+                    <img src="https://cdn.igromania.ru/mnt/news/7/4/7/b/1/c/105260/2e8f256add2c0155_1920xH.jpg" class="img-fluid rounded-top" alt="">
+                    <div class="overlay rounded-top bg-dark"></div>
+                    <div class="post-meta">
+                        <a href="javascript:void(0)" class="text-light d-block text-right like"><i class="mdi mdi-heart"></i> 33</a>
+                        <a href="javascript:void(0)" class="text-light read-more">Read More <i class="mdi mdi-chevron-right"></i></a>
+                    </div>
+                </div>
+                <div class="content p-3">
+                    <small class="text-muted p float-right">21 May, 2021</small>
+                    <small><a href="javascript:void(0)" class="text-primary">Games</a></small>
+                    <h4 class="mt-2"><a href="javascript:void(0)" class="text-dark title">Leak: today, Paradox announces the Victoria 3 strategy</a></h4>
+                    <p class="text-muted mt-2">The developers from Paradox Interactive published the announcement of Victoria 3 on their forums ahead of time.
+Recall that Victoria is a series of global strategies. The first part was released in 2003, and the second-in 2010. The head of development of Victoria 3 is Martin Anvard (Stellaris), but other details, including the release date, are not yet known.
+The announcement of Victoria 3 should take place today, May 21, at 21: 00 Moscow Time as part of the show at PDXCON.</p>
+                    <div class="pt-3 mt-3 border-top d-flex">
+                        <img src="https://sun9-26.userapi.com/impg/xpNeIlWDUjqr-ehXeHxsZeyXytSOzOezaDX6YA/f3X-BMblIaU.jpg?size=1920x1920&quality=96&sign=83de721f6628734da8f9a258f0916783&type=album" class="img-fluid avatar avatar-ex-sm rounded-pill mr-3 shadow" alt="">
+                        <div class="author mt-2">
+                            <h6 class="mb-0"><a href="main.html" class="text-dark name">Aleksey Konig</a></h6>
+                        </div>
+                    </div>
+                </div>
+            </div><!--end blog post-->
+        </div><!--end col-->
+    </div><!--end row-->
+</div>
+<script src="http://code.jquery.com/jquery-1.10.2.min.js"></script>
+<script src="http://netdna.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+<script type="text/javascript">
+	
+</script>
+</body>
+</html>
